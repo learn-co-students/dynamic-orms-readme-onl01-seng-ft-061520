@@ -11,3 +11,8 @@ puts "song album: " + song.album
 song.save
 
 DB[:conn].execute("SELECT * FROM songs")
+
+
+
+# Run this code file with:       bin/run
+# PRACTICE: Practice creating, saving, and querying songs in the bin/run file and run the program again and again until you get a better feel for it.
